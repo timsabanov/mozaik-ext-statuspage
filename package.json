@@ -24,7 +24,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "mozaik",
+    "statuspage",
+    "widget",
+    "api"
+  ],
   "author": "",
   "license": "MIT",
   "repository": {
