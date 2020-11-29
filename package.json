@@ -15,6 +15,11 @@
     "react": "^0.13.3",
     "reflux": "^0.2.5"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/timsabanov/mozaik-ext-statuspage/issues"
   },
