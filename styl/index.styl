@@ -1,0 +1,43 @@
+.statuspage
+
+  &__item
+    padding-top 5px
+    padding-bottom 5px
+    padding-left 2%
+    padding-right 2%
+
+  &__data
+
+    &__label
+      font-size 13px
+      padding-top 2px
+      padding-bottom 2px
+      padding-left 2%
+      padding-right 2%
+      text-align left
+      width 30%
+      float left
+
+    &__value
+      font-size 13px
+      display inline-block
+      text-align center
+      width 40%
+      color: white
+      padding: 2px;
+      &.none
+        background-color: #349c50
+      &.minor
+        background-color: rgb(237, 179, 89);
+      &.major
+        background-color: #eb364b
+      &.critical
+        background-color: #eb364b
+
+    &__time
+      font-size 13px
+      color darken($main-txt-color, 20)
+      display inline-block
+      text-align center
+      width 30%
+      float right

@@ -1,0 +1,35 @@
+{
+  "name": "mozaik-ext-statuspage",
+  "version": "1.0.0",
+  "description": "Mozaïk statuspage extension",
+  "main": "./src/components/index.js",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "chalk": "^0.5.1",
+    "convict": "^1.0.1",
+    "react-mixin": "3.0.4",
+    "superagent-bluebird-promise": "^4.1.0"
+  },
+  "devDependencies": {
+    "mozaik": "0.0.9-beta",
+    "react": "^0.13.3",
+    "reflux": "^0.2.5"
+  },
+  "bugs": {
+    "url": "https://github.com/timsabanov/mozaik-ext-statuspage/issues"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timsabanov/mozaik-ext-statuspage.git"
+  },
+  "homepage": "https://github.com/timsabanov/mozaik-ext-statuspage#readme"
+}
